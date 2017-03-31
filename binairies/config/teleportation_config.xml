@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<teleportations>
+	<teleportation id="1" tox="69" toy="65" sprite="2"/>
+	<teleportation id="2" tox="15" toy="57" sprite="2"/>
+	<teleportation id="3" tox="78" toy="75" sprite="1"/>
+	<teleportation id="4" tox="27" toy="67" sprite="1"/>
+</teleportations>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+  	<head>
+   		<title>Zombie MC diapo</title>
+    	<meta charset="utf-8" />
+    	<meta name="description" content="Zombie MC diapo" />
+    	<meta name = "viewport" content = "user-scalable=0,width=device-width,initial-scale=1,maximum-scale=1" />
+    	<link rel="icon" type="image/png" href="logo-32-32.png" />
+    	<link href="default.css" rel="stylesheet" type="text/css" media="screen, print, handheld" />
+    	<link href="jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen, print, handheld" />
+    	<script type="text/javascript" src="jquery.min.js" ></script> 
+    	<script type="text/javascript" src="jquery.scrollTo.js"></script> 
+    	<script type="text/javascript" src="jquery.ascensor.js"></script> 
+    	<script type="text/javascript" src="jquery.mousewheel-3.0.6.pack.js"></script>
+    	<script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+
+    	<link href="syntaxhighligher/shCore.css" rel="stylesheet" type="text/css" media="screen, print, handheld" />
+	    <link href="syntaxhighligher/shCoreMidnight.css" rel="stylesheet" type="text/css" media="screen, print, handheld" />
+	    <script type="text/javascript" src="syntaxhighligher/shCore.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/shAutoloader.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/language/shBrushCss.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/language/shBrushJScript.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/language/shBrushPhp.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/language/shBrushSql.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/language/shBrushXml.js" ></script> 
+	    <script type="text/javascript" src="syntaxhighligher/language/shBrushCpp.js" ></script> 
+
+    	<script type="text/javascript">
+    		$(document).ready(function() {
+				$('#content').ascensor({
+					AscensorName:'work_',
+					WindowsFocus:true,
+					WindowsOn:0,
+					
+					NavigationDirection:'yx',
+					Direction: 'y',
+					Navig:true,
+					Link:false,
+					ReturnURL:true,
+					PrevNext:true,
+					CSSstyles:true,
+					
+					KeyArrow:true,
+					keySwitch:true,
+					ReturnCode:false,
+					
+					ChocolateAscensor:true,
+					AscensorMap: '1|9',
+					ContentCoord: '1|8 & 1|7 & 1|6 & 1|5 & 1|4 & 1|3 & 1|2 & 1|1'
+				});
+			})
+
+			$(document).ready(function() {
+				$(".fancybox").fancybox();
+			});
+    	</script>
+  	</head>
+  	<body>
+		<div id="main">
+			<div id="content">
+	    		<div><!-- 1,1  -->
+		    		<div class="work_0">
+		    			<div class="titre">
+		    				<h2>Zombies MC : présentation</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>« Zombie MC » est un jeu vidéo d’action en vue de haut de type shoot them up (dérivé du jeu d'action dans lequel le joueur dirige un véhicule ou un personnage devant détruire un grand nombre d'ennemis tout en esquivant leurs projectiles pour rester en vie) et survival-horror (type de jeu vidéo dans lequel le joueur doit survivre dans un environnement hostile et angoissant peuplé de monstres, morts-vivants ou autres créatures surnaturelles).</p>
+		    				<p><img src="logo.png" style="display: block; margin: auto;"/></p>
+		    			</div>
+		    		</div>
+	    		</div>
+	    		<div><!-- 1,2 -->	
+		    		<div class="work_1">
+		    			<div class="titre">
+		    				<h2>Zombies MC : pourquoi programmer un jeu vidéo ?</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>
+		    					<span style="position: relative; top: -2px;">■</span> un jeu vidéo est un programme particulier demandant de maîtriser un grand nombre de compétences (programmation, graphismes, sons)<br />
+		    					<span style="position: relative; top: -2px;">■</span> un jeu vidéo a un aspect ludique pour les utilisateurs<br />
+		    					<span style="position: relative; top: -2px;">■</span> nous sommes tous les deux des gamers dans l'âme<br />
+		    				</p>
+		    			</div>
+		    		</div>
+        			</div>
+        		<div><!-- 1,3  -->
+		    		<div class="work_2">
+		    			<div class="titre">
+		    				<h2>Zombies MC : organisation du programme</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>On peut comparer le programme a une poupée russe (matriochkas). Il est composé de fonctions jouant un rôlé de plus en plus précis. Ainsi, la fonction principale ne fait que distribuer les tâches aux autres classes tandis que les fonctions de la classe physic vont gérer les collisions entre objets.</p><br />
+		    				<a class="fancybox" rel="group" href="diagramme.png"><img src="diagramme.png" alt="" style="display: block; margin: auto; max-width: 300px;"/></a>
+		    				<p>Code source de la fonction main() : </p>
+		    				<pre class="brush: cpp">
+		    					int main()
+								{
+								    float width = getScreen();
+								    float height = getScreen() * ((float)sf::VideoMode::GetDesktopMode().Height/(float)sf::VideoMode::GetDesktopMode().Width);
+								    float deltaTime;
+
+								    sf::RenderWindow window(sf::VideoMode(width, height, 32), "Zombie MC", sf::Style::Close);
+								    sf::Clock Clock;
+								    Engine engine(width, height);
+
+								    window.SetFramerateLimit(FPS);
+								    window.UseVerticalSync(true);
+								    MusicManager::playMusic("sounds/musique.ogg", 40.f, true);
+
+								    while (window.IsOpened())
+								    {
+								        sf::Event event;
+								        deltaTime = Clock.GetElapsedTime();
+
+								        while(window.GetEvent(event))
+								        {
+								            if(event.Type == sf::Event::Closed)
+								            {
+								                window.Close();
+								            }
+								        }
+
+								        window.Clear(sf::Color(5,10,20));
+								        engine.run(window, deltaTime);
+								        Clock.Reset();
+								        window.Display();
+								    }
+
+								    return EXIT_SUCCESS;
+								}
+		    				</pre>
+		    			</div>
+		    		</div>
+	    		</div>
+	    		<div><!-- 2,1 -->	
+		    		<div class="work_3">
+		    			<div class="titre">
+		    				<h2>Zombies MC : stockage des données</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>Comme le jeu comprenait beaucoup de données pour pouvoir fonctionner, j'ai choisi de les stocker en dehors du programme dans des fichiers de configuration écrits en XML qui sont ensuite lus avec la bibliothèque TinyXml.</p><br />
+		    				<p>Exemple de fichier XML gérant quelques armes : <p>
+		    				<pre class="brush: xml">
+								<?xml version="1.0" encoding="utf-8" standalone="no"?>
+								<weapons>
+									<weapon id="1" degat="30" cadence="300" munitions="70" sound="2" speed="33" sprite="1" nom="pistolet 1"> <!-- gun 1 -->
+										<tile idtile="1"></tile>
+										<tile idtile="30"></tile>
+										<tile idtile="15"></tile>
+										<tile idtile="20"></tile>
+										<tile idtile="29"></tile>
+										<tile idtile="28"></tile>
+									</weapon>
+								</weapons></pre>
+							<p>Exemple de fichier XML gérant les bornes de téléportation : <p>
+							<pre class="brush: xml">
+								<?xml version="1.0" encoding="utf-8" standalone="no"?>
+								<teleportations>
+									<teleportation id="1" tox="69" toy="65" sprite="2"></teleportation>
+									<teleportation id="2" tox="15" toy="57" sprite="2"></teleportation>
+									<teleportation id="3" tox="78" toy="75" sprite="1"></teleportation>
+									<teleportation id="4" tox="27" toy="67" sprite="1"></teleportation>
+								</teleportations></pre>
+							<p>Un niveau peut comporter jusqu'à 20 000 lignes de code (20 000 objets)<p>
+		    			</div>
+		    		</div>
+        		</div>
+        		<div><!-- 2,2  -->
+		    		<div class="work_4">
+		    			<div class="titre">
+		    				<h2>Zombies MC : les algorithmes principaux mis en jeu</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>
+			    				<span style="position: relative; top: -2px;">■</span> algorithme de collision<br />
+			    				<span style="position: relative; top: -2px;">■</span> algorithme de recherche de chemin (A*)<br />
+			    			</p>
+			    			<a class="fancybox" rel="group" href="aStarT7.jpg"><img src="aStarT7.jpg" alt="" style="display: block; margin: auto; max-width: 300px;"/></a>
+		    			</div>
+		    		</div>
+	    		</div>
+	    		<div><!-- 2,3 -->	
+		    		<div class="work_5">
+		    			<div class="titre">
+		    				<h2>Zombies MC : parties du jeu à terminer</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>
+			    				<span style="position: relative; top: -2px;">■</span> corriger un bug dans l'algorithme de collision avec les murs<br />
+			    				<span style="position: relative; top: -2px;">■</span> terminer d'implémenter l'algorithme de recherche de chemin pour rendre les zombies plus intelligents<br />
+			    				<span style="position: relative; top: -2px;">■</span> terminer les sprites du joueur pour différencier visuellement les différentes armes<br />
+			    				<span style="position: relative; top: -2px;">■</span> terminer l'écran "game over"<br />
+			    			</p>
+		    			</div>
+		    		</div>
+        		</div>
+	    		<div><!-- 3,2 -->	
+		    		<div class="work_6">
+		    			<div class="titre">
+		    				<h2>Zombies MC : quelques données sur le projet</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>
+		    					<span style="position: relative; top: -2px;">■</span> Utilisation de la SFML (Simple and Fast Multimedia Library) et de TinyXml<br />
+		    					<span style="position: relative; top: -2px;">■</span> Utilisation du XML pour la gestion des données de jeu<br />
+		    					<span style="position: relative; top: -2px;">■</span> Utilisation de la Programmation Orientée Objet<br />
+		    					<span style="position: relative; top: -2px;">■</span> Gestion du couple souris/clavier et de la manette de Xbox 360<br />
+		    					<span style="position: relative; top: -2px;">■</span> Environ 11 000 lignes de C++<br />
+		    					<span style="position: relative; top: -2px;">■</span> 3 mois de travail acharné<br />
+		    				</p>
+		    			</div>
+		    		</div>
+        		</div>
+        		<div><!-- 3,3 -->	
+		    		<div class="work_7">
+		    			<div class="titre">
+		    				<h2>Zombies MC : annexes</h2>
+		    			</div>
+		    			<div class="contenu">
+		    				<p>
+		    					<span style="position: relative; top: -2px;">■</span> site web : <a href="http://zombie-mc.dzv.me/">Zombie MC</a><br />
+		    				</p>
+		    			</div>
+		    		</div>
+        		</div>
+	    	</div>
+		</div>
+		<script type="text/javascript">      
+			SyntaxHighlighter.config.stripBrs = false;     
+			SyntaxHighlighter.all();    
+		</script>
+	</body>
+</html>

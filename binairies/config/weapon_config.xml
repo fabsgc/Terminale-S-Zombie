@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<weapons>
+	<weapon id="1" degat="30" cadence="300" munitions="70" sound="2" speed="33" sprite="1" nom="pistolet 1"> <!-- gun 1 -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="15"/>
+		<tile idtile="20"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="2" degat="40" cadence="400" munitions="60" sound="2" speed="33" sprite="1" nom="pistolet 2"> <!-- gun 2 -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="3" degat="50" cadence="500" munitions="40"  sound="2" speed="33" sprite="1" nom="pistolet 3"> <!-- gun 3 -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="4" degat="100" cadence="600" munitions="30" sound="23" speed="33" sprite="1" nom="pistolet 4"> <!-- gun 4 -->
+		<tile idtile="1" />
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="5" degat="25" cadence="50" munitions="350" sound="4" speed="33" sprite="2" nom="mitrailette"> <!-- mitrailette -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="6" degat="150" cadence="1000" munitions="3" sound="5" speed="15" sprite="3" nom="lance roquette"> <!-- lance roquette -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="7" degat="110" cadence="1500" munitions="3" sound="6" speed="0" sprite="0" nom="mine"> <!-- mine -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="8" degat="110" cadence="1500" munitions="3" sound="1" speed="6" sprite="0" nom="grenade"> <!-- grenade -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="9" degat="20" cadence="20" munitions="350" sound="8" speed="10" sprite="0" nom="lance flamme"> <!-- lance flamme -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+	<weapon id="10" degat="70" cadence="800" munitions="0" sound="9" speed="10" sprite="0" nom="épée"> <!-- coup de sabre -->
+		<tile idtile="1"/>
+		<tile idtile="30"/>
+		<tile idtile="29"/>
+		<tile idtile="28"/>
+	</weapon>
+</weapons>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<player life="100" positionx="256" positiony="-256" rotate="0" level="1" weapon="1" speed="7">
+	<objects>
+		<object type="1" id="1"/>
+	</objects>
+</player>

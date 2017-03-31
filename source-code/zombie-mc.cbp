@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zombie-mc" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/zombie-mc" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-audio-s" />
+					<Add option="-lsfml-graphics-s" />
+					<Add option="-lsfml-window-s" />
+					<Add option="-lsfml-system-s" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/zombie-mc" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_DYNAMIC" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-audio" />
+					<Add option="-lsfml-graphics" />
+					<Add option="-lsfml-window" />
+					<Add option="-lsfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="anim.cpp" />
+		<Unit filename="anim.hpp" />
+		<Unit filename="bullet.cpp" />
+		<Unit filename="bullet.hpp" />
+		<Unit filename="bullet_bullet.cpp" />
+		<Unit filename="bullet_bullet.hpp" />
+		<Unit filename="bullet_flame.hpp" />
+		<Unit filename="bullet_flamme.cpp" />
+		<Unit filename="bullet_grenade.cpp" />
+		<Unit filename="bullet_grenade.hpp" />
+		<Unit filename="bullet_mine.cpp" />
+		<Unit filename="bullet_mine.hpp" />
+		<Unit filename="bullet_sword.cpp" />
+		<Unit filename="bullet_sword.hpp" />
+		<Unit filename="engine.cpp" />
+		<Unit filename="engine.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="gui_menu.cpp" />
+		<Unit filename="gui_menu.hpp" />
+		<Unit filename="gui_message.cpp" />
+		<Unit filename="gui_message.hpp" />
+		<Unit filename="include.cpp" />
+		<Unit filename="include.hpp" />
+		<Unit filename="light.cpp" />
+		<Unit filename="light.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.hpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.hpp" />
+		<Unit filename="musicmanager.cpp" />
+		<Unit filename="musicmanager.hpp" />
+		<Unit filename="node.cpp" />
+		<Unit filename="node.hpp" />
+		<Unit filename="npc.cpp" />
+		<Unit filename="npc.hpp" />
+		<Unit filename="object.cpp" />
+		<Unit filename="object.hpp" />
+		<Unit filename="object_bonus.cpp" />
+		<Unit filename="object_bonus.hpp" />
+		<Unit filename="object_card.cpp" />
+		<Unit filename="object_card.hpp" />
+		<Unit filename="object_door.cpp" />
+		<Unit filename="object_door.hpp" />
+		<Unit filename="object_malus.cpp" />
+		<Unit filename="object_malus.hpp" />
+		<Unit filename="object_teleportation.cpp" />
+		<Unit filename="object_teleportation.hpp" />
+		<Unit filename="object_weapon.cpp" />
+		<Unit filename="object_weapon.hpp" />
+		<Unit filename="pathfinder.cpp" />
+		<Unit filename="pathfinder.hpp" />
+		<Unit filename="physic.cpp" />
+		<Unit filename="physic.hpp" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.hpp" />
+		<Unit filename="ressource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="soundmanager.cpp" />
+		<Unit filename="soundmanager.hpp" />
+		<Unit filename="tiles.cpp" />
+		<Unit filename="tiles.hpp" />
+		<Unit filename="tinystr.cpp" />
+		<Unit filename="tinystr.h" />
+		<Unit filename="tinyxml.cpp" />
+		<Unit filename="tinyxml.h" />
+		<Unit filename="tinyxmlerror.cpp" />
+		<Unit filename="tinyxmlparser.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

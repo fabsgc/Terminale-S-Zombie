@@ -1,0 +1,1 @@
+Certaines textures des tiles du jeu sont issues du pack de texture Soartex Fanver (http://soartex.net/)

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<npcs>
+	<npc id="1" type="2" degat="5" life="100" speed="4" sprite="sprites/npcs.png"/>
+	<npc id="2" type="1" degat="10"  life="125" speed="4" sprite="sprites/npcs.png"/>
+</npcs>

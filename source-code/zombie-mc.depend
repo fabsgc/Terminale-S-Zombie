@@ -1,0 +1,954 @@
+# depslib dependency file v1.0
+1370304523 source:c:\projets\zombie-mc\zombie-mc\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	"include.hpp"
+	"engine.hpp"
+
+1369355252 source:c:\projets\zombie-mc\zombie-mc\include.cpp
+	"include.hpp"
+
+1369468220 c:\projets\zombie-mc\zombie-mc\include.hpp
+	<iostream>
+	<fstream>
+	<list>
+	<ctime>
+	<cmath>
+	<string>
+	<sstream>
+	"tinyxml.h"
+	<SFML/Graphics.hpp>
+	"soundmanager.hpp"
+	"musicmanager.hpp"
+
+1364807426 c:\projets\zombie-mc\zombie-mc\engine.hpp
+	"include.hpp"
+	"game.hpp"
+	"menu.hpp"
+
+1369338806 source:c:\projets\zombie-mc\zombie-mc\engine.cpp
+	"engine.hpp"
+
+1369470050 source:c:\projets\zombie-mc\zombie-mc\game.cpp
+	"game.hpp"
+
+1369468098 c:\projets\zombie-mc\zombie-mc\game.hpp
+	"include.hpp"
+	"gui_message.hpp"
+	"gui_menu.hpp"
+	"physic.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"object_teleportation.hpp"
+	"bullet.hpp"
+	"tiles.hpp"
+	"light.hpp"
+	"map.hpp"
+	"player.hpp"
+	"npc.hpp"
+
+1369447452 c:\projets\zombie-mc\zombie-mc\menu.hpp
+	"include.hpp"
+	"gui_menu.hpp"
+
+1369447854 source:c:\projets\zombie-mc\zombie-mc\menu.cpp
+	"menu.hpp"
+
+1362320868 c:\projets\zombie-mc\zombie-mc\sound.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1362320551 source:c:\projets\zombie-mc\zombie-mc\sound.cpp
+	"sound.hpp"
+
+1369470172 c:\projets\zombie-mc\zombie-mc\soundmanager.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1365028136 source:c:\projets\zombie-mc\zombie-mc\musicmanager.cpp
+	"musicmanager.hpp"
+
+1362339604 c:\projets\zombie-mc\zombie-mc\musicmanager.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1369470008 source:c:\projets\zombie-mc\zombie-mc\soundmanager.cpp
+	"soundmanager.hpp"
+
+1305397498 source:c:\projets\zombie-mc\zombie-mc\tinystr.cpp
+	"tinystr.h"
+
+1305397498 c:\projets\zombie-mc\zombie-mc\tinystr.h
+	<assert.h>
+	<string.h>
+
+1305397498 source:c:\projets\zombie-mc\zombie-mc\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305397498 c:\projets\zombie-mc\zombie-mc\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305397498 source:c:\projets\zombie-mc\zombie-mc\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305397498 source:c:\projets\zombie-mc\zombie-mc\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1369263718 c:\projets\zombie-mc\zombie-mc\player.hpp
+	"include.hpp"
+	"bullet.hpp"
+	"bullet_bullet.hpp"
+	"bullet_flame.hpp"
+	"bullet_grenade.hpp"
+	"bullet_mine.hpp"
+	"bullet_sword.hpp"
+	"anim.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"tiles.hpp"
+	"npc.hpp"
+
+1369422462 c:\projets\zombie-mc\zombie-mc\npc.hpp
+	"player.hpp"
+	"include.hpp"
+	"node.hpp"
+	"pathfinder.hpp"
+	"object.hpp"
+	"object_door.hpp"
+	"bullet.hpp"
+
+1369429926 source:c:\projets\zombie-mc\zombie-mc\npc.cpp
+	"npc.hpp"
+
+1369470806 source:c:\projets\zombie-mc\zombie-mc\player.cpp
+	"player.hpp"
+
+1365021116 source:c:\projets\zombie-mc\zombie-mc\object.cpp
+	"object.hpp"
+
+1367855496 c:\projets\zombie-mc\zombie-mc\object.hpp
+	"include.hpp"
+
+1364854964 c:\projets\zombie-mc\zombie-mc\object_card.hpp
+	"object.hpp"
+
+1365021128 source:c:\projets\zombie-mc\zombie-mc\object_card.cpp
+	"object_card.hpp"
+
+1368142624 c:\projets\zombie-mc\zombie-mc\object_weapon.hpp
+	"object.hpp"
+
+1368142700 source:c:\projets\zombie-mc\zombie-mc\object_weapon.cpp
+	"object_weapon.hpp"
+
+1367958666 source:c:\projets\zombie-mc\zombie-mc\bullet.cpp
+	"bullet.hpp"
+
+1367958610 c:\projets\zombie-mc\zombie-mc\bullet.hpp
+	"include.hpp"
+
+1370174319 c:\projets\zombie-mc\zombie-mc\physic.hpp
+	"include.hpp"
+	"node.hpp"
+	"pathfinder.hpp"
+	"gui_message.hpp"
+	"map.hpp"
+	"bullet.hpp"
+	"bullet_bullet.hpp"
+	"bullet_flame.hpp"
+	"bullet_grenade.hpp"
+	"bullet_mine.hpp"
+	"bullet_sword.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"object_teleportation.hpp"
+	"tiles.hpp"
+	"player.hpp"
+	"npc.hpp"
+
+1370306852 source:c:\projets\zombie-mc\zombie-mc\physic.cpp
+	"physic.hpp"
+
+1369420890 c:\projets\zombie-mc\zombie-mc\map.hpp
+	"include.hpp"
+	"node.hpp"
+	"pathfinder.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"object_teleportation.hpp"
+	"tiles.hpp"
+	"light.hpp"
+	"npc.hpp"
+	"player.hpp"
+
+1369433068 source:c:\projets\zombie-mc\zombie-mc\map.cpp
+	"map.hpp"
+
+1367855488 c:\projets\zombie-mc\zombie-mc\object_door.hpp
+	"object.hpp"
+
+1367855482 source:c:\projets\zombie-mc\zombie-mc\object_door.cpp
+	"object_door.hpp"
+
+1367945954 c:\projets\zombie-mc\zombie-mc\tiles.hpp
+	"include.hpp"
+
+1369254294 source:c:\projets\zombie-mc\zombie-mc\tiles.cpp
+	"tiles.hpp"
+
+1362665544 c:\projets\zombie-mc\zombie-mc\light.hpp
+	"include.hpp"
+
+1365167338 source:c:\projets\zombie-mc\zombie-mc\light.cpp
+	"light.hpp"
+
+1362680583 c:\projets\zombie-mc\zombie-mc\gui.hpp
+	"include.hpp"
+
+1362680576 source:c:\projets\zombie-mc\zombie-mc\gui.cpp
+	"gui.hpp"
+
+1364658604 source:c:\projets\zombie-mc\zombie-mc\anim.cpp
+	"anim.hpp"
+
+1368224632 c:\projets\zombie-mc\zombie-mc\gui_message.hpp
+	"include.hpp"
+	"player.hpp"
+
+1368219066 c:\projets\zombie-mc\zombie-mc\gui_menu.hpp
+	"include.hpp"
+
+1368219108 source:c:\projets\zombie-mc\zombie-mc\gui_menu.cpp
+	"gui_menu.hpp"
+
+1368224666 source:c:\projets\zombie-mc\zombie-mc\gui_message.cpp
+	"gui_message.hpp"
+
+1364658612 c:\projets\zombie-mc\zombie-mc\anim.hpp
+	"include.hpp"
+
+1364854960 c:\projets\zombie-mc\zombie-mc\object_bonus.hpp
+	"object.hpp"
+
+1365021122 source:c:\projets\zombie-mc\zombie-mc\object_bonus.cpp
+	"object_bonus.hpp"
+
+1364854970 c:\projets\zombie-mc\zombie-mc\object_malus.hpp
+	"object.hpp"
+
+1365021138 source:c:\projets\zombie-mc\zombie-mc\object_malus.cpp
+	"object_malus.hpp"
+
+1365021066 source:c:\projets\zombie-mc\zombie-mc\bullet_bullet.cpp
+	"bullet_bullet.hpp"
+
+1365198612 source:c:\projets\zombie-mc\zombie-mc\bullet_flamme.cpp
+	"bullet_flame.hpp"
+
+1368011476 source:c:\projets\zombie-mc\zombie-mc\bullet_mine.cpp
+	"bullet_mine.hpp"
+
+1365197680 source:c:\projets\zombie-mc\zombie-mc\bullet_sword.cpp
+	"bullet_sword.hpp"
+
+1368017732 source:c:\projets\zombie-mc\zombie-mc\bullet_grenade.cpp
+	"bullet_grenade.hpp"
+
+1364659126 c:\projets\zombie-mc\zombie-mc\bullet_bullet.hpp
+	"include.hpp"
+	"bullet.hpp"
+
+1364659148 c:\projets\zombie-mc\zombie-mc\bullet_flame.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1368017256 c:\projets\zombie-mc\zombie-mc\bullet_grenade.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1367857680 c:\projets\zombie-mc\zombie-mc\bullet_mine.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1364659344 c:\projets\zombie-mc\zombie-mc\bullet_sword.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1364621044 source:c:\projet-isn\zombie-mc\anim.cpp
+	"anim.hpp"
+
+1364621052 c:\projet-isn\zombie-mc\anim.hpp
+	"include.hpp"
+
+1364629951 c:\projet-isn\zombie-mc\include.hpp
+	<iostream>
+	<list>
+	<ctime>
+	<cmath>
+	<string>
+	<sstream>
+	"tinyxml.h"
+	<SFML/Graphics.hpp>
+	"soundmanager.hpp"
+	"musicmanager.hpp"
+
+1305393898 c:\projet-isn\zombie-mc\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305393898 c:\projet-isn\zombie-mc\tinystr.h
+	<assert.h>
+	<string.h>
+
+1362753266 c:\projet-isn\zombie-mc\soundmanager.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1362336004 c:\projet-isn\zombie-mc\musicmanager.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1363710140 source:c:\projet-isn\zombie-mc\bullet.cpp
+	"bullet.hpp"
+
+1363710100 c:\projet-isn\zombie-mc\bullet.hpp
+	"include.hpp"
+
+1363716278 source:c:\projet-isn\zombie-mc\bullet_bullet.cpp
+	"bullet_bullet.hpp"
+
+1363696312 c:\projet-isn\zombie-mc\bullet_bullet.hpp
+	"include.hpp"
+	"bullet.hpp"
+
+1363718372 source:c:\projet-isn\zombie-mc\bullet_flamme.cpp
+	"bullet_flame.hpp"
+
+1363716020 c:\projet-isn\zombie-mc\bullet_flame.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1364619788 source:c:\projet-isn\zombie-mc\bullet_grenade.cpp
+	"bullet_grenade.hpp"
+
+1363716046 c:\projet-isn\zombie-mc\bullet_grenade.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1364619796 source:c:\projet-isn\zombie-mc\bullet_mine.cpp
+	"bullet_mine.hpp"
+
+1363716002 c:\projet-isn\zombie-mc\bullet_mine.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1363716032 source:c:\projet-isn\zombie-mc\bullet_sword.cpp
+	"bullet_sword.hpp"
+
+1363716028 c:\projet-isn\zombie-mc\bullet_sword.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1362670896 source:c:\projet-isn\zombie-mc\engine.cpp
+	"engine.hpp"
+
+1362346180 c:\projet-isn\zombie-mc\engine.hpp
+	"include.hpp"
+	"game.hpp"
+	"menu.hpp"
+
+1363128710 c:\projet-isn\zombie-mc\game.hpp
+	"include.hpp"
+	"gui_message.hpp"
+	"gui_menu.hpp"
+	"physic.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_bonus.hpp"
+	"bullet.hpp"
+	"tiles.hpp"
+	"light.hpp"
+	"map.hpp"
+	"player.hpp"
+	"npc.hpp"
+
+1362696752 c:\projet-isn\zombie-mc\gui_message.hpp
+	"include.hpp"
+
+1362696710 c:\projet-isn\zombie-mc\gui_menu.hpp
+	"include.hpp"
+
+1363717596 c:\projet-isn\zombie-mc\physic.hpp
+	"include.hpp"
+	"gui_message.hpp"
+	"map.hpp"
+	"bullet.hpp"
+	"bullet_bullet.hpp"
+	"bullet_flame.hpp"
+	"bullet_grenade.hpp"
+	"bullet_mine.hpp"
+	"bullet_sword.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"tiles.hpp"
+	"player.hpp"
+	"npc.hpp"
+
+1363028362 c:\projet-isn\zombie-mc\map.hpp
+	"include.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"tiles.hpp"
+	"light.hpp"
+	"npc.hpp"
+	"player.hpp"
+
+1363042470 c:\projet-isn\zombie-mc\object.hpp
+	"include.hpp"
+
+1362674156 c:\projet-isn\zombie-mc\object_card.hpp
+	"include.hpp"
+	"object.hpp"
+
+1363211048 c:\projet-isn\zombie-mc\object_weapon.hpp
+	"include.hpp"
+	"object.hpp"
+
+1362782886 c:\projet-isn\zombie-mc\object_door.hpp
+	"include.hpp"
+	"object.hpp"
+
+1363041642 c:\projet-isn\zombie-mc\object_bonus.hpp
+	"include.hpp"
+	"object.hpp"
+
+1363042114 c:\projet-isn\zombie-mc\object_malus.hpp
+	"include.hpp"
+	"object.hpp"
+
+1364621644 c:\projet-isn\zombie-mc\tiles.hpp
+	"include.hpp"
+
+1362661944 c:\projet-isn\zombie-mc\light.hpp
+	"include.hpp"
+
+1363200722 c:\projet-isn\zombie-mc\npc.hpp
+	"player.hpp"
+	"include.hpp"
+	"object.hpp"
+	"object_door.hpp"
+	"bullet.hpp"
+
+1363717554 c:\projet-isn\zombie-mc\player.hpp
+	"include.hpp"
+	"gui_message.hpp"
+	"gui_menu.hpp"
+	"bullet.hpp"
+	"bullet_bullet.hpp"
+	"bullet_flame.hpp"
+	"bullet_grenade.hpp"
+	"bullet_mine.hpp"
+	"bullet_sword.hpp"
+	"anim.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"tiles.hpp"
+	"npc.hpp"
+
+1362696942 c:\projet-isn\zombie-mc\menu.hpp
+	"include.hpp"
+	"gui_menu.hpp"
+
+1364629055 source:c:\projet-isn\zombie-mc\game.cpp
+	"game.hpp"
+
+1362696970 source:c:\projet-isn\zombie-mc\gui_menu.cpp
+	"gui_menu.hpp"
+
+1362696766 source:c:\projet-isn\zombie-mc\gui_message.cpp
+	"gui_message.hpp"
+
+1362675292 source:c:\projet-isn\zombie-mc\include.cpp
+
+1362778328 source:c:\projet-isn\zombie-mc\light.cpp
+	"light.hpp"
+
+1364620236 source:c:\projet-isn\zombie-mc\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	"include.hpp"
+	"engine.hpp"
+
+1364629013 source:c:\projet-isn\zombie-mc\map.cpp
+	"map.hpp"
+
+1362675484 source:c:\projet-isn\zombie-mc\menu.cpp
+	"menu.hpp"
+
+1362523950 source:c:\projet-isn\zombie-mc\musicmanager.cpp
+	"musicmanager.hpp"
+
+1363210566 source:c:\projet-isn\zombie-mc\npc.cpp
+	"npc.hpp"
+
+1363127530 source:c:\projet-isn\zombie-mc\object.cpp
+	"object.hpp"
+
+1363127760 source:c:\projet-isn\zombie-mc\object_bonus.cpp
+	"object_bonus.hpp"
+
+1362778378 source:c:\projet-isn\zombie-mc\object_card.cpp
+	"object_card.hpp"
+
+1362827922 source:c:\projet-isn\zombie-mc\object_door.cpp
+	"object_door.hpp"
+
+1363127984 source:c:\projet-isn\zombie-mc\object_malus.cpp
+	"object_malus.hpp"
+
+1363211144 source:c:\projet-isn\zombie-mc\object_weapon.cpp
+	"object_weapon.hpp"
+
+1363717704 source:c:\projet-isn\zombie-mc\physic.cpp
+	"physic.hpp"
+
+1364619997 source:c:\projet-isn\zombie-mc\player.cpp
+	"player.hpp"
+
+1362753284 source:c:\projet-isn\zombie-mc\soundmanager.cpp
+	"soundmanager.hpp"
+
+1364623354 source:c:\projet-isn\zombie-mc\tiles.cpp
+	"tiles.hpp"
+
+1305393898 source:c:\projet-isn\zombie-mc\tinystr.cpp
+	"tinystr.h"
+
+1305393898 source:c:\projet-isn\zombie-mc\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305393898 source:c:\projet-isn\zombie-mc\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305393898 source:c:\projet-isn\zombie-mc\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1369447324 source:c:\projets\zombie-mc\zombie-mc\ressource.rc
+
+1367855436 c:\projets\zombie-mc\zombie-mc\object_teleportation.hpp
+	"object.hpp"
+
+1365095576 source:c:\projets\zombie-mc\zombie-mc\object_teleportation.cpp
+	"object_teleportation.hpp"
+
+1368393111 source:c:\projets\zombie-mc\zombie-mc\astar.cpp
+	"astar.hpp"
+
+1368310562 c:\projets\zombie-mc\zombie-mc\astar.hpp
+	"include.hpp"
+	"object.hpp"
+	"object_door.hpp"
+	"tiles.hpp"
+	"npc.hpp"
+	"player.hpp"
+
+1369342960 c:\projets\zombie-mc\zombie-mc\node.hpp
+	"include.hpp"
+
+1369355214 c:\projets\zombie-mc\zombie-mc\pathfinder.hpp
+	"include.hpp"
+	"node.hpp"
+
+1369352054 source:c:\projets\zombie-mc\zombie-mc\node.cpp
+	"node.hpp"
+
+1369362144 source:c:\projets\zombie-mc\zombie-mc\pathfinder.cpp
+	"pathfinder.hpp"
+
+1364658604 source:c:\jeu\zombie-mc\anim.cpp
+	"anim.hpp"
+
+1364658612 c:\jeu\zombie-mc\anim.hpp
+	"include.hpp"
+
+1369468220 c:\jeu\zombie-mc\include.hpp
+	<iostream>
+	<fstream>
+	<list>
+	<ctime>
+	<cmath>
+	<string>
+	<sstream>
+	"tinyxml.h"
+	<SFML/Graphics.hpp>
+	"soundmanager.hpp"
+	"musicmanager.hpp"
+
+1305397498 c:\jeu\zombie-mc\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305397498 c:\jeu\zombie-mc\tinystr.h
+	<assert.h>
+	<string.h>
+
+1369470172 c:\jeu\zombie-mc\soundmanager.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1362339604 c:\jeu\zombie-mc\musicmanager.hpp
+	<SFML/Audio.hpp>
+	"include.hpp"
+
+1367958666 source:c:\jeu\zombie-mc\bullet.cpp
+	"bullet.hpp"
+
+1367958610 c:\jeu\zombie-mc\bullet.hpp
+	"include.hpp"
+
+1365021066 source:c:\jeu\zombie-mc\bullet_bullet.cpp
+	"bullet_bullet.hpp"
+
+1364659126 c:\jeu\zombie-mc\bullet_bullet.hpp
+	"include.hpp"
+	"bullet.hpp"
+
+1365198612 source:c:\jeu\zombie-mc\bullet_flamme.cpp
+	"bullet_flame.hpp"
+
+1364659148 c:\jeu\zombie-mc\bullet_flame.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1368017732 source:c:\jeu\zombie-mc\bullet_grenade.cpp
+	"bullet_grenade.hpp"
+
+1368017256 c:\jeu\zombie-mc\bullet_grenade.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1368011476 source:c:\jeu\zombie-mc\bullet_mine.cpp
+	"bullet_mine.hpp"
+
+1367857680 c:\jeu\zombie-mc\bullet_mine.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1365197680 source:c:\jeu\zombie-mc\bullet_sword.cpp
+	"bullet_sword.hpp"
+
+1364659344 c:\jeu\zombie-mc\bullet_sword.hpp
+	"include.hpp"
+	"anim.hpp"
+	"bullet.hpp"
+
+1369338806 source:c:\jeu\zombie-mc\engine.cpp
+	"engine.hpp"
+
+1364807426 c:\jeu\zombie-mc\engine.hpp
+	"include.hpp"
+	"game.hpp"
+	"menu.hpp"
+
+1369468098 c:\jeu\zombie-mc\game.hpp
+	"include.hpp"
+	"gui_message.hpp"
+	"gui_menu.hpp"
+	"physic.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"object_teleportation.hpp"
+	"bullet.hpp"
+	"tiles.hpp"
+	"light.hpp"
+	"map.hpp"
+	"player.hpp"
+	"npc.hpp"
+
+1368224632 c:\jeu\zombie-mc\gui_message.hpp
+	"include.hpp"
+	"player.hpp"
+
+1369263718 c:\jeu\zombie-mc\player.hpp
+	"include.hpp"
+	"bullet.hpp"
+	"bullet_bullet.hpp"
+	"bullet_flame.hpp"
+	"bullet_grenade.hpp"
+	"bullet_mine.hpp"
+	"bullet_sword.hpp"
+	"anim.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"tiles.hpp"
+	"npc.hpp"
+
+1367855496 c:\jeu\zombie-mc\object.hpp
+	"include.hpp"
+
+1364854964 c:\jeu\zombie-mc\object_card.hpp
+	"object.hpp"
+
+1368142624 c:\jeu\zombie-mc\object_weapon.hpp
+	"object.hpp"
+
+1367855488 c:\jeu\zombie-mc\object_door.hpp
+	"object.hpp"
+
+1364854960 c:\jeu\zombie-mc\object_bonus.hpp
+	"object.hpp"
+
+1364854970 c:\jeu\zombie-mc\object_malus.hpp
+	"object.hpp"
+
+1367945954 c:\jeu\zombie-mc\tiles.hpp
+	"include.hpp"
+
+1369422462 c:\jeu\zombie-mc\npc.hpp
+	"player.hpp"
+	"include.hpp"
+	"node.hpp"
+	"pathfinder.hpp"
+	"object.hpp"
+	"object_door.hpp"
+	"bullet.hpp"
+
+1369342960 c:\jeu\zombie-mc\node.hpp
+	"include.hpp"
+
+1369355214 c:\jeu\zombie-mc\pathfinder.hpp
+	"include.hpp"
+	"node.hpp"
+
+1368219066 c:\jeu\zombie-mc\gui_menu.hpp
+	"include.hpp"
+
+1370174320 c:\jeu\zombie-mc\physic.hpp
+	"include.hpp"
+	"node.hpp"
+	"pathfinder.hpp"
+	"gui_message.hpp"
+	"map.hpp"
+	"bullet.hpp"
+	"bullet_bullet.hpp"
+	"bullet_flame.hpp"
+	"bullet_grenade.hpp"
+	"bullet_mine.hpp"
+	"bullet_sword.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"object_teleportation.hpp"
+	"tiles.hpp"
+	"player.hpp"
+	"npc.hpp"
+
+1369420890 c:\jeu\zombie-mc\map.hpp
+	"include.hpp"
+	"node.hpp"
+	"pathfinder.hpp"
+	"object.hpp"
+	"object_card.hpp"
+	"object_weapon.hpp"
+	"object_door.hpp"
+	"object_bonus.hpp"
+	"object_malus.hpp"
+	"object_teleportation.hpp"
+	"tiles.hpp"
+	"light.hpp"
+	"npc.hpp"
+	"player.hpp"
+
+1367855436 c:\jeu\zombie-mc\object_teleportation.hpp
+	"object.hpp"
+
+1362665544 c:\jeu\zombie-mc\light.hpp
+	"include.hpp"
+
+1369447452 c:\jeu\zombie-mc\menu.hpp
+	"include.hpp"
+	"gui_menu.hpp"
+
+1369470050 source:c:\jeu\zombie-mc\game.cpp
+	"game.hpp"
+
+1368219108 source:c:\jeu\zombie-mc\gui_menu.cpp
+	"gui_menu.hpp"
+
+1368224666 source:c:\jeu\zombie-mc\gui_message.cpp
+	"gui_message.hpp"
+
+1369355252 source:c:\jeu\zombie-mc\include.cpp
+	"include.hpp"
+
+1365167338 source:c:\jeu\zombie-mc\light.cpp
+	"light.hpp"
+
+1370304524 source:c:\jeu\zombie-mc\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	"include.hpp"
+	"engine.hpp"
+
+1369433068 source:c:\jeu\zombie-mc\map.cpp
+	"map.hpp"
+
+1369447854 source:c:\jeu\zombie-mc\menu.cpp
+	"menu.hpp"
+
+1365028136 source:c:\jeu\zombie-mc\musicmanager.cpp
+	"musicmanager.hpp"
+
+1369352054 source:c:\jeu\zombie-mc\node.cpp
+	"node.hpp"
+
+1369429926 source:c:\jeu\zombie-mc\npc.cpp
+	"npc.hpp"
+
+1365021116 source:c:\jeu\zombie-mc\object.cpp
+	"object.hpp"
+
+1365021122 source:c:\jeu\zombie-mc\object_bonus.cpp
+	"object_bonus.hpp"
+
+1365021128 source:c:\jeu\zombie-mc\object_card.cpp
+	"object_card.hpp"
+
+1367855482 source:c:\jeu\zombie-mc\object_door.cpp
+	"object_door.hpp"
+
+1365021138 source:c:\jeu\zombie-mc\object_malus.cpp
+	"object_malus.hpp"
+
+1365095576 source:c:\jeu\zombie-mc\object_teleportation.cpp
+	"object_teleportation.hpp"
+
+1368142700 source:c:\jeu\zombie-mc\object_weapon.cpp
+	"object_weapon.hpp"
+
+1369362144 source:c:\jeu\zombie-mc\pathfinder.cpp
+	"pathfinder.hpp"
+
+1370306854 source:c:\jeu\zombie-mc\physic.cpp
+	"physic.hpp"
+
+1369470806 source:c:\jeu\zombie-mc\player.cpp
+	"player.hpp"
+
+1369447324 source:c:\jeu\zombie-mc\ressource.rc
+
+1369470008 source:c:\jeu\zombie-mc\soundmanager.cpp
+	"soundmanager.hpp"
+
+1369254294 source:c:\jeu\zombie-mc\tiles.cpp
+	"tiles.hpp"
+
+1305397498 source:c:\jeu\zombie-mc\tinystr.cpp
+	"tinystr.h"
+
+1305397498 source:c:\jeu\zombie-mc\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305397498 source:c:\jeu\zombie-mc\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305397498 source:c:\jeu\zombie-mc\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+

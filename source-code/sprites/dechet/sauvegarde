@@ -1,0 +1,30 @@
+while (window.GetEvent(event))
+    {
+        switch(event.Type)
+        {
+            case sf::Event::Closed :
+                window.Close();
+            break;
+
+            case sf::Event::KeyPressed:
+                switch(event.Key.Code)
+                {
+                    case sf::Key::Escape :
+                        window.Close();
+                    break;
+
+                    default :
+
+                    break;
+                }
+
+                window.Close();
+            break;
+
+            default:
+                //engine.run(event, window, Clock.GetElapsedTime());
+                std::cout << "1" << std::endl;
+            break;
+
+            }
+        }

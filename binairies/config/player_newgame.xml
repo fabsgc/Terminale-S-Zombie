@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<player life="100" positionx="256" positiony="-256" rotate="0" level="1" speed="7">
+	<weapons>
+		<weapon id="1" />
+		<weapon id="2" />
+		<weapon id="3" />
+		<weapon id="4" />
+		<weapon id="5" />
+		<weapon id="6" />
+		<weapon id="7" />
+		<weapon id="8" />
+		<weapon id="9" />
+		<weapon id="10" />
+	</weapons>
+	<objects>
+	</objects>
+</player>
